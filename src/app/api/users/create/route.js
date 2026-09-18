@@ -33,6 +33,7 @@ export async function POST(request) {
                 user_id: crypto.randomUUID(),
                 nama: data.nama,
                 email: data.email,
+                nama: data.nama,
                 password: password,
                 role: data.role,
                 is_active: data.is_active,
